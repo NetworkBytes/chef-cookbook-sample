@@ -19,5 +19,5 @@ end
 
 
 describe os_env('FOO') do
-  its('content') { should eq 'BAR' }
+  its('content') { should_not eq 'BAR' }
 end

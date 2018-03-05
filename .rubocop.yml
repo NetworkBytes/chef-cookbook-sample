@@ -1,2 +1,5 @@
-Style/EndOfLine:
-  Enabled: False
+Layout/EndOfLine:
+  EnforcedStyle: lf
+
+Layout/EmptyLines:
+  Enabled: false
